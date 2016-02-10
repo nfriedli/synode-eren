@@ -129,6 +129,8 @@ Error message and password prompt
 
 <li>$:/core</li>
 
+<li>$:/core/ui/ViewTemplate/subtitle</li>
+
 <li>$:/DefaultTiddlers</li>
 
 <li>$:/Import</li>
@@ -147,15 +149,21 @@ Error message and password prompt
 
 <li>$:/state/showeditpreview</li>
 
+<li>$:/state/tab--1498284803</li>
+
 <li>$:/state/tab--1963855381</li>
 
 <li>$:/state/tab-1749438307</li>
+
+<li>$:/state/tab/moresidebar-401116514</li>
 
 <li>$:/state/tab/sidebar--1835078512</li>
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
 
 <li>$:/StoryList</li>
+
+<li>$:/temp/advancedsearch</li>
 
 <li>$:/temp/info-plugin</li>
 
@@ -422,14 +430,14 @@ Error message and password prompt
 <div created="20160205131921471" modified="20160205131921471" title="$:/config/Navigation/UpdateAddressBar">
 <pre>permalink</pre>
 </div>
-<div created="20160205132719901" modified="20160205132719901" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
+<div created="20160205132719901" modified="20160210182719512" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
 <div created="20160205132718921" modified="20160205132718921" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20160205131902309" modified="20160205131902309" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others">
-<pre>show</pre>
+<div created="20160205131902309" modified="20160210182726154" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/close-others">
+<pre>hide</pre>
 </div>
 <div created="20160205131410516" modified="20160205131858018" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/new-here">
 <pre>hide</pre>
@@ -6483,6 +6491,16 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20160210182655132" modified="20160210182657379" tags="$:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/subtitle">
+<pre>&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
+&lt;div class=&quot;tc-subtitle&quot;&gt;
+&lt;$link to={{!!modifier}}&gt;
+&lt;$view field=&quot;modifier&quot;/&gt;
+&lt;/$link&gt;
+&lt;/div&gt;
+&lt;/$reveal&gt;
+</pre>
+</div>
 <div created="20160205130157484" modified="20160205130215412" title="$:/DefaultTiddlers">
 <pre>[[À propos]]
 [[Contact]]
@@ -9179,20 +9197,29 @@ Error message and password prompt
 <div created="20160205131250990" modified="20160209193753619" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20160205130704788" modified="20160209200031976" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Palette</pre>
+<div created="20160210182547973" modified="20160210182547973" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
 </div>
-<div created="20160205130700012" modified="20160209200030124" title="$:/state/tab-1749438307">
+<div created="20160205130704788" modified="20160210182715123" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
+</div>
+<div created="20160205130700012" modified="20160210182712976" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
-<div created="20160205130729173" modified="20160209200025210" title="$:/state/tab/sidebar--1835078512">
+<div created="20160210183043419" modified="20160210183100891" title="$:/state/tab/moresidebar-401116514">
+<pre>$:/core/ui/MoreSideBar/Tags</pre>
+</div>
+<div created="20160205130729173" modified="20160210183105266" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div created="20160205132716501" modified="20160205132717430" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+<div created="20160205132716501" modified="20160210182720652" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div list="[[À propos]] Contact" title="$:/StoryList">
 <pre></pre>
+</div>
+<div created="20160210182545692" modified="20160210182545692" title="$:/temp/advancedsearch">
+<pre>$:/core/ui/ViewTemplate/subtitle</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -9208,7 +9235,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20160205142838521" modified="20160209195819005" title="$:/temp/search">
+<div created="20160205142838521" modified="20160210183033756" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20160205130703412" modified="20160205130703412" title="$:/theme">
@@ -9365,7 +9392,7 @@ niveau cantonal au 1.1.2011.</pre>
 concept de la formation de base et des journées de formation continue pour les visiteurs
 bénévoles en EMS.</pre>
 </div>
-<div created="20160209195610850" modified="20160209195616462" tags="" title="158-H">
+<div created="20160209195610850" modified="20160210182802212" tags="[[faculté de théologie]]" title="158-H">
 <pre>Le Synode, à titre exceptionnel, délègue au Conseil synodal la compétence de donner
 l'avis requis par la procédure de nomination d'un professeur de la Faculté de théologie de
 Neuchâtel. Cette délégation de compétence court de juillet à décembre 2009.</pre>
@@ -9536,16 +9563,16 @@ Art. 44 - supprimé</pre>
 
 XXX Tableau</pre>
 </div>
-<div created="20160209193307688" modified="20160209193434258" tags="" title="161-D">
+<div created="20160209193307688" modified="20160210182834795" tags="[[faculté de théologie]]" title="161-D">
 <pre>Sous réserve de la modification de l’art. 72 de la Constitution par l’Assemblée générale de  l’Eglise,  le  Synode charge  le  Conseil  synodal  de mettre en œuvre les dispositions visant à permettre à l’EREN de s’exprimer sur : 
 
 * le profil de tout poste de professeur de la Faculté de théologie, dans le cadre de la Commission des études et sur 
 *  les candidatures par une participation à la Commission de nomination de l’Université. </pre>
 </div>
-<div created="20160209193445660" modified="20160209193506599" tags="" title="161-E">
+<div created="20160209193445660" modified="20160210182829068" tags="[[faculté de théologie]]" title="161-E">
 <pre>Le Synode demande à l’Assemblée générale, en première  lecture,  le  changement suivant de la Constitution, visant à renoncer à l’agrément du Synode dans la procédure de nomination des professeurs de la Faculté de théologie. </pre>
 </div>
-<div created="20160209193518330" modified="20160209193534126" tags="" title="161-F">
+<div created="20160209193518330" modified="20160210182822876" tags="[[faculté de théologie]]" title="161-F">
 <pre>Le  Synode  demande  au  Conseil  synodal  d’être  informé  sur les changements et 
 décisions significatifs concernant la Faculté de théologie et ayant un impact sur la vie de l’Eglise. </pre>
 </div>
@@ -9606,7 +9633,7 @@ diminution en 2011 de la contribution directe de l’EREN et de lui présenter u
 pour la session de décembre 2011 précisant la conception de la collaboration et du
 soutien financier entre l'EREN et le CSP.</pre>
 </div>
-<div created="20160129173527442" modified="20160129173533304" tags="" title="162-J">
+<div created="20160129173527442" modified="20160210182901444" tags="[[Terre Nouvelle]]" title="162-J">
 <pre>Le Synode charge le Conseil synodal de discuter avec les œuvres d’entraide et en
 concertation avec les Eglises romandes la possibilité d’inclure le salaire de l’animateur
 Terre Nouvelle dans la cible missionnaire. Sous réserve d’éléments majeurs émanant de
@@ -9659,7 +9686,7 @@ l’Etat en ce qui concerne le soutien au CSP.</pre>
 <pre>Le Synode engage les députés à susciter des réflexions dans leurs réseaux, quant au
 rôle des Eglises reconnues et quant à la reconnaissance par l’Etat de ce rôle.</pre>
 </div>
-<div created="20160129172736685" modified="20160129172819927" tags="" title="165-E">
+<div created="20160129172736685" modified="20160210182911020" tags="[[Terre Nouvelle]]" title="165-E">
 <pre>Le Synode décide, après réception de l’évaluation d’une première année d’expérience
 de soutien dans le cadre de la cible à des projets alternatifs à ceux proposés par les
 œuvres Terre Nouvelle, de modifier les règles adoptées en décembre 2008 :
@@ -9934,7 +9961,7 @@ paroissiaux) et celles qui s'engagent comme visiteuses, en EMS et/ou à domicile
 
 # La cible des paroisses est calculée par chaque paroisse et indiquée au  Secrétariat général au plus tard en juin de chaque année. Elle est égale à minimum 1% de la contribution ecclésiastique perçue l'année précédente.</pre>
 </div>
-<div created="20160205131421689" modified="20160205131448225" tags="174-I [[Terre Nouvelle]] 2019" title="174-J">
+<div created="20160205131421689" modified="20160210182924693" tags="[[Terre Nouvelle]] 2019" title="174-J">
 <pre>Le Synode demande au Conseil synodal un rapport d'évaluation en juin 2019.</pre>
 </div>
 <div created="20160205131517405" modified="20160205131605479" title="174-K">
@@ -9970,8 +9997,10 @@ sur l'applicabilité de la résolution [[162-E]] en ce qui concerne les aumôner
 
 Le meilleur moyen pour commencer le travail est de passer par la recherche. Par exemple en entrant le numéro de la session du Synode concerné.</pre>
 </div>
-<div created="20160205130623085" modified="20160205130647086" title="Contact">
-<pre>Lors de la phase de test: nicolas.friedli@eren.ch.</pre>
+<div created="20160205130623085" modified="20160210183234388" title="Contact">
+<pre>Lors de la phase de test: [[nicolas.friedli@eren.ch|mailto:nicolas.friedli@eren.ch]].
+
+Président du Synode: [[Yves Bourquin|mailto:yves.bourquin@eren.ch]].</pre>
 </div>
 <div color="#e12364" created="20160129184855017" modified="20160129184904566" title="ouvert">
 <pre></pre>
